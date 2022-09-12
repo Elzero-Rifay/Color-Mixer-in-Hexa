@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: darkgray;
+  height: 82px;
+}
+
+.inputs {
+  display: inline-block;
+  padding: 21px 17px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  border-radius: 20px;
+  height: 8px;
+  width: 125px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #fff ;
+}
+
+#resultInHexa {
+  display: inline-block;
+  position: relative;
+  left: 582px;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing:1px;
+  font-family:monospace;
+}
+
+
+#red {
+  background: linear-gradient(90deg, black, red);
+}
+
+#green {
+  background: linear-gradient(90deg, black, green);
+}
+
+#blue {
+  background: linear-gradient(90deg, black, blue);
+}
